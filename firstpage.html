@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.k{
+		width: 50px;
+		height: 50px;
+		background-color: #f00;
+		transition:all .5s;
+		-webkit-transform:rotate(10deg);
+		        transform:rotate(10deg);
+	}
+	.k:hover{
+		background-color: #00f;
+	}
+	</style>
+	<script src="http://www.zhangxinxu.com/study/js/mini/prefixfree.min.js"></script>
+</head>
+<body>
+	<h1>过渡transition，两个状态之间进行平缓过渡（渐变、动画）</h1>
+	<h2>浏览器前缀处理方式，手动处理，prefixfree.min.js，autoprefixer</h2>
+	<p>prefixfree.min.js，运行时自动处理</p>
+	<p>autoprefixer, 开发执行，只补需要补得(caniuse.com),
+		ctrl+shift+p   autoprefixer(nodejs)</p>
+	<div class="k"></div>
+</body>
+</html>
